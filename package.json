@@ -1,9 +1,8 @@
 {
-  "name": "reveal.js",
+  "name": "dime-scheduler-rolling-presentation",
   "version": "4.0.2",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
-  "subdomain": "revealjs",
+  "description": "Dime.Scheduler, the graphical resource and project planning solution for Microsoft Dynamics.",
+  "homepage": "https://www.dimescheduler.com",  
   "main": "dist/reveal.js",
   "module": "dist/reveal.esm.js",
   "license": "MIT",
@@ -13,19 +12,20 @@
     "build": "gulp"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Hendrik Bulens",
+    "email": "hendrik@dimescheduler.com",
+    "web": "https://www.dimescheduler.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/dime-scheduler/rolling-slidedeck.git"
   },
   "engines": {
     "node": ">=10.0.0"
   },
   "keywords": [
-    "reveal",
+    "dimesoftware",
+    "dimescheduler",
     "slides",
     "presentation"
   ],

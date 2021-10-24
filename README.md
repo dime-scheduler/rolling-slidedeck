@@ -1,26 +1,14 @@
 <p align="center">
-  <a href="https://revealjs.com">
-  <img src="./assets/logo.png" alt="reveal.js" height="60">
-  </a>
+<img src="./assets/logo.png" alt="Dime.Scheduler logo" height="60">
 </p>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Webinar-WSB Solutions-green" />
 <img src="https://img.shields.io/badge/License-MIT-green.svg" />
 </div>
 
-This is the presentation for the joint webinar with WSB Solutions.
+A rolling slide show for Dime.Scheduler.
 
-# Get started
+# Getting started
 
-Run `yarn` in the root folder to install the package and run `yarn start` to start the presentation.
-
-# Documentation
-
-This is an implementation of reveal.js, an open source HTML presentation framework. It's a tool that enables anyone with a web browser to create fully-featured and beautiful presentations for free.
-
-The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
-
-# License
-
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+- Run `yarn` in the root folder to install the package.
+- Run `yarn start` to start the presentation. The command line will indicate the port on which the app is hosted. By default this is `http://localhost:8000`.
