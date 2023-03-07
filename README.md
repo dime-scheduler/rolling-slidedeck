@@ -12,3 +12,7 @@ A rolling slide show for Dime.Scheduler.
 
 - Run `yarn` in the root folder to install the package.
 - Run `yarn start` to start the presentation. The command line will indicate the port on which the app is hosted. By default this is `http://localhost:8000`.
+
+## Deploy to Github pages
+
+No need to do anything, the GitHub action takes care of the deployment to GitHub pages!
