@@ -16,7 +16,7 @@
 	box-sizing: border-box;
 }
 
-// Text that auto-fits it's container
+// Text that auto-fits its container
 .reveal .r-fit-text {
 	display: inline-block; // https://github.com/rikschennink/fitty#performance
 	white-space: nowrap;
@@ -67,9 +67,3 @@
 .reveal .justify-start { justify-content: flex-start; }
 .reveal .justify-center { justify-content: center; }
 .reveal .justify-end { justify-content: flex-end; }
-
-.circle {
-	border-radius: 50%;
-	width: 50px;
-	height: 50px; 
-}

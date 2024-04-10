@@ -35,13 +35,13 @@
 
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
-            <section data-background-image="./assets/intro.png" data-background-opacity="0.75">
-                <img src="assets/ds.png" alt="Dime.Scheduler Logo" class="demo-logo" />
+            <section class="bg" data-background-opacity="0.75">
+                <img src="https://cdn.dimescheduler.com/dime-scheduler/v2/logo_light.svg" alt="Dime.Scheduler Logo"
+                    class="demo-logo" />
                 <h4 style="font-size:0.7em; margin-top: 20px">Stop puzzling. Start planning.</h4>
             </section>
 
-            <section data-background-image="./assets/intro.png" data-transition="concave"
-                data-background-opacity="0.75">
+            <section class="bg" data-transition="concave" data-background-opacity="0.75">
                 <h4>
                     Visual resource & project
                     <br />planning software
@@ -51,10 +51,10 @@
                 <img src="assets/start.png" width="70%" />
             </section>
             <section data-transition="concave" data-background-opacity="0.75"
-                data-background-video="./assets/video/Conference vid.mp4" data-autoslide="85000">
+                data-background-video="./assets/video/Intro.mp4" data-autoslide="85000">
             </section>
             <section>
-                <section data-background-image="./assets/intro.png" data-background-opacity="0.75">
+                <section class="bg" data-background-opacity="0.75">
                     <h3>Dime.Scheduler is...</h3>
                     <ul class="nobullets" style="font-size:30px">
                         <li class="fragment fade-in" data-autoslide="2500">
@@ -77,76 +77,80 @@
                     </ul>
                 </section>
 
-                <section data-background-image="./assets/intro.png" data-transition="fade" class="industries"
-                    data-background-opacity="0.75">
+                <section class="bg" data-transition="fade" class="industries" data-background-opacity="0.75">
                     <h2>Industries</h2>
 
-                    <div class="row">
+                    <div class="threeCol row">
                         <div class="column">
-                            <p><img src="assets/industries/technician.svg" height="50" /> Field Service</p>
-                            <p><img src="assets/industries/truck.svg" height="50" /> Transportation</p>
-                            <p><img src="assets/industries/food-and-drink.svg" height="50" /> Accommodation & food</p>
-                            <p><img src="assets/industries/utilities.svg" height="50" /> Utilities</p>
+                            <p><img src="assets/industries/technician.svg" height="40" /> Field Service</p>
+                            <p><img src="assets/industries/truck.svg" height="40" /> Transportation</p>
+                            <p><img src="assets/industries/food-and-drink.svg" height="40" /> Accommodation & food</p>
+                            <p><img src="assets/industries/utilities.svg" height="40" /> Utilities</p>
                         </div>
                         <div class="column">
-                            <p><img src="assets/industries/construction.svg" height="50" /> Construction</p>
-                            <p><img src="assets/industries/training.svg" height="50" /> Educational services</p>
-                            <p><img src="assets/industries/manufacturing.svg" height="50" /> Manufacturing</p>
-                            <p><img src="assets/industries/farmer.svg" height="50" /> Agriculture</p>
-
+                            <p><img src="assets/industries/construction.svg" height="40" /> Construction</p>
+                            <p><img src="assets/industries/training.svg" height="40" /> Educational services</p>
+                            <p><img src="assets/industries/manufacturing.svg" height="40" /> Manufacturing</p>
+                            <p><img src="assets/industries/farmer.svg" height="40" /> Agriculture</p>
                         </div>
                         <div class="column">
-                            <p><img src="assets/industries/tool.svg" height="50" /> Rental</p>
-                            <p><img src="assets/industries/services.svg" height="50" /> Professional services</p>
-                            <p><img src="assets/industries/healthcare.svg" height="50" /> Health care</p>
-                            <p><img src="assets/industries/more.svg" height="50" /> And many more</p>
+                            <p><img src="assets/industries/tool.svg" height="40" /> Rental</p>
+                            <p><img src="assets/industries/services.svg" height="40" /> Professional services</p>
+                            <p><img src="assets/industries/healthcare.svg" height="40" /> Health care</p>
+                            <p><img src="assets/industries/more.svg" height="40" /> And many more</p>
                         </div>
                     </div>
                 </section>
 
-                <section data-background-image="./assets/intro.png" data-transition="fade"
-                    data-background-opacity="0.75">
+                <section class="bg" data-transition="fade" data-background-opacity="0.75">
                     <h4>Key Features</h4>
-                    <ul class="nobullets">
-                        <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/drag.svg"
-                                height="50" /> Drag & drop
-                            planning
-                        </li>
-                        <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/gantt.svg"
-                                height="50" /> Gantt chart
-                            project planning
-                        </li>
-                        <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/map.svg"
-                                height="50" /> Integrated map
-                        </li>
-                        <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/filter.svg"
-                                height="50" /> Powerful
-                            resource filters
-                        </li>
-                        <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/gauge.svg"
-                                height="50" width="50" />
-                            Capacity
-                            overview
-                        </li>
-                        <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/calendars.svg"
-                                height="50" /> Calendars
-                        </li>
-                        <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/exchange.svg"
-                                height="50" /> Connect to
-                            Microsoft Exchange</li>
-                    </ul>
+
+                    <div class="twoCol row">
+                        <div class="column">
+                            <ul class="nobullets">
+                                <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/drag.svg"
+                                        height="50" /> Drag & drop
+                                    planning
+                                </li>
+                                <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/gantt.svg"
+                                        height="50" /> Gantt chart
+                                    project planning
+                                </li>
+                                <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/map.svg"
+                                        height="50" /> Integrated map
+                                </li>
+                                <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/filter.svg"
+                                        height="50" /> Powerful
+                                    resource filters
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul class="nobullets">
+                                <li class="fragment fade-in" data-autoslide="2500"><img src="assets/features/gauge.svg"
+                                        height="50" width="50" />
+                                    Capacity
+                                    overview
+                                </li>
+                                <li class="fragment fade-in" data-autoslide="2500"><img
+                                        src="assets/features/calendars.svg" height="50" /> Calendars
+                                </li>
+                                <li class="fragment fade-in" data-autoslide="2500"><img
+                                        src="assets/features/exchange.svg" height="50" /> Connect to
+                                    Microsoft Exchange</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
                 </section>
             </section>
 
             <section data-transition="concave" data-background-opacity="0.75"
                 data-background-video="./assets/video/testimonial.mp4" data-autoslide="167000">
             </section>
-
-            <section data-transition="concave" data-background-opacity="0.75"
-                data-background-video="./assets/video/mobile.mp4" data-autoslide="40000">
-            </section>
-
-            <section data-background-image="./assets/intro.png" data-background-opacity="0.75">
+            
+            <section class="bg" data-background-opacity="0.75">
                 <section>
                     <ul style="list-style: none;">
                         <li class="listitem"><i class="fas fa-globe"></i> dimescheduler.com</li>
